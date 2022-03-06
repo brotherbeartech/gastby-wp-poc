@@ -7,4 +7,18 @@
 import React from "react"
 import PropTypes from "prop-types"
 
-import './../../sass/common.scss';
+import '../../assets/sass/common.scss'
+
+const Layout = ({ children }) => {
+    return (
+        <>
+            <main className="main-container">{children}</main>
+        </>
+    )
+}
+
+Layout.propTypes = {
+    children: PropTypes.node.isRequired
+}
+
+export default Layout
