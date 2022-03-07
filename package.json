@@ -14,7 +14,9 @@
         "build": "yarn workspace site build",
         "build:clean": "yarn workspace site build:clean",
         "serve": "yarn workspace site serve",
-        "clean": "yarn workspace site clean"
+        "clean": "yarn workspace site clean",
+        "storybook": "yarn workspace packages/khavin-woo-theme start-storybook -p 6006",
+        "build-storybook": "yarn workspace packages/khavin-woo-theme build-storybook"
     },
     "repository": {
         "type": "git"
